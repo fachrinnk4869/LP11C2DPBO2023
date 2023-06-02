@@ -1,4 +1,4 @@
-# LP11C2DPBO2023
+# LP11DPBO2023C2
 Saya Fachri Najm Noer Kartiman NIM 2106515 mengerjakan LP 11 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ## Deskripsi Tugas

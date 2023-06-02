@@ -26,3 +26,6 @@ Program ini memiliki 1 tabel, yaitu pasien. Tabel ini memiliki 8 atribut, yaitu 
 
 - Preview
 
+https://github.com/fachrinnk4869/LP11DPBO2023C2/assets/92314386/5e5bb716-fc1d-4dbc-9ec4-db27f28d213a
+
+

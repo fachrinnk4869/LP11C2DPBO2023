@@ -16,16 +16,13 @@ Program ini memiliki 1 tabel, yaitu pasien. Tabel ini memiliki 8 atribut, yaitu 
 
 ## Dokumentasi
 1. Halaman Home
-
-
+![image](https://github.com/fachrinnk4869/LP11DPBO2023C2/assets/92314386/cc70e8e5-7d6d-4675-ac65-63c4fe322b8f)
 
 2. Halaman Add Data
-
-
+![image](https://github.com/fachrinnk4869/LP11DPBO2023C2/assets/92314386/bef8c43c-e08d-4888-8a9a-b213ac28a7bd)
 
 3. Halaman Update Data
-
-
+![image](https://github.com/fachrinnk4869/LP11DPBO2023C2/assets/92314386/ef776798-31ce-401a-8e66-ab8be223f184)
 
 - Preview
 

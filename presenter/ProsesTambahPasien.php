@@ -2,7 +2,7 @@
 
 include_once("kontrak/KontrakPasien.php");
 
-class ProsesPasien implements KontrakPasienPresenter
+class ProsesTambahPasien implements KontrakTambahPasienPresenter
 {
 	private $tabelpasien;
 	private $data = [];
@@ -51,12 +51,20 @@ class ProsesPasien implements KontrakPasienPresenter
 			echo "wiw error part 2" . $e->getMessage();
 		}
 	}
-	function hapusDataPasien($id){
+	function add($data)
+	{
 		$this->tabelpasien->open();
-    $this->tabelpasien->delete($id);
-    $this->tabelpasien->close();
+		$this->tabelpasien->add($data);
+		$this->tabelpasien->close();
+		header("location:index.php");
+	}
 
-    header("location:index.php");
+	function update($data)
+	{
+		$this->tabelpasien->open();
+		$this->tabelpasien->edit($data);
+		$this->tabelpasien->close();
+		header("location:index.php");
 	}
 
 	function getId($i)

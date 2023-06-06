@@ -1,10 +1,10 @@
 <?php
 
 
-include_once("kontrak/KontrakPasien.php");
-include_once("presenter/ProsesPasien.php");
+include_once("kontrak/KontrakTambahPasien.php");
+include_once("presenter/ProsesTambahPasien.php");
 
-class TambahPasien implements KontrakPasienView
+class TambahPasien implements KontrakTambahPasienView
 {
 	private $prosespasien; //presenter yang dapat berinteraksi langsung dengan view
 	private $tpl;
@@ -12,7 +12,7 @@ class TambahPasien implements KontrakPasienView
 	function __construct()
 	{
 		//konstruktor
-		$this->prosespasien = new ProsesPasien();
+		$this->prosespasien = new ProsesTambahPasien();
 	}
 
 	function tampil()

@@ -1,10 +1,11 @@
 <?php
 
-  interface KontrakPasienView {
+  interface KontrakTambahPasienView {
       public function tampil();
+      public function tampilUpdate($id);
   }
 
-  interface KontrakPasienPresenter {
+  interface KontrakTambahPasienPresenter {
       public function prosesDataPasien();
       public function getId($i);
       public function getNik($i);
@@ -15,5 +16,6 @@
       public function getEmail($i);
       public function getTelp($i);
       public function getSize();
-      public function hapusDataPasien($id);
+      public function add($data);
+      public function update($data);
   }
